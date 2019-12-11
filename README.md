@@ -1,4 +1,4 @@
-Treatment Episode Data Set: Discharges (TEDS-D)
+<h2>Treatment Episode Data Set: Discharges (TEDS-D)</h2>
 
 The Treatment Episode Data Set -- Discharges (TEDS-D) is a national data system of annual discharges from substance abuse treatment
 facilities. These data provide information on the demographic and substance abuse characteristics of substance abuse treatment 
