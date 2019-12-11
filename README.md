@@ -15,4 +15,18 @@ administrative data systems.
 TEDS-D records represent discharges rather than individuals, as a person may be admitted to and discharged from treatment 
 more than once.
 
+The limitations to be kept in mind when analyzing this dataset include:
+- TEDS is an admission based system and therefore admissions and discharge do not represent individuals. Meaning an individual admitted and discharged twice in a year, would be counted as 2 admissions and 2 discharges.
+- This data provides info on the treatment presented in specific facility, does not necessarily represent complete treatment episodes, which may include stays in multiple types of services and would require analysis of series of linked pairs of records.
+- The primary, secondary and tertiary substances of abuse reported to the TEDS are those substances that led to the treatment episode and not necessarily a complete enumeration of all drugs used at the time of admission.
+- The way an admission is defined may vary from state to state.
+- Public funding constraints may direct states to selectively target special populations for example pregnant women or adolescents.
+- Some states have no Opioid Treatment Programs that provide medication assistance therapy using methadone and/or buprenorphine.
+
+
+Variables are elaborated in this case:
+https://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/30122/variables?start=0&sort=VARLABEL_SORT%20asc&STUDYQ=30122&EXTERNAL_FLAG=1&ARCHIVE=ICPSR&rows=50#
+
+Other Analysis for 2017 dataset: https://github.com/katevitale/SAMHSA-binary-classifier-treatment-success/blob/master/Insight_interview-binary%20classifier%20of%20treatment%20success%20using%20TEDSD%202017.ipynb
+
 This project uses machine learning techniques to analyze, cluster, visualize and classify data. 
