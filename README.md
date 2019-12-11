@@ -24,9 +24,7 @@ The limitations to be kept in mind when analyzing this dataset include:
 - Some states have no Opioid Treatment Programs that provide medication assistance therapy using methadone and/or buprenorphine.
 
 
-Variables are elaborated in this case:
-https://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/30122/variables?start=0&sort=VARLABEL_SORT%20asc&STUDYQ=30122&EXTERNAL_FLAG=1&ARCHIVE=ICPSR&rows=50#
-
-Other Analysis for 2017 dataset: https://github.com/katevitale/SAMHSA-binary-classifier-treatment-success/blob/master/Insight_interview-binary%20classifier%20of%20treatment%20success%20using%20TEDSD%202017.ipynb
+Variables are elaborated in this file:
+<a href="https://www.icpsr.umich.edu/icpsrweb/ICPSR/studies/30122/variables?start=0&sort=VARLABEL_SORT%20asc&STUDYQ=30122&EXTERNAL_FLAG=1&ARCHIVE=ICPSR&rows=50#"> Codebook for TEDS-D dataset </a>
 
 This project uses machine learning techniques to analyze, cluster, visualize and classify data. 
