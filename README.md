@@ -49,4 +49,5 @@ The results obtained indicate that half (5/10) of the first 10 most important at
 <h4>Permutation Importance</h4>
 
 Applying Permutation Importance on fitted models to determine the most important features in the dataset in relation to the target feature "REASON". 
+The permutation feature importance is defined to be the decrease in a model score when a single feature value is randomly shuffled. This procedure breaks the relationship between the feature and the target, thus the drop in the model score is indicative of how much the model depends on the feature.
 
