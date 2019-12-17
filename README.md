@@ -42,6 +42,8 @@ output: 10 clusters
 
 <h3>Feature selection</h3>
 
+<h4>Chi-Square Test</h4>
+
 Here a chi-squared test is applied to detect the features with the strongest relation to the target attribute "TREATMENT SUCCESSFULL. 
 In this method the same data used for clustering is fed to the algorthim with the goal to see if the most frequent attributes that appear in the clusters are also the attributes that have the strongest relation with the attribute 'TREATMENT SUCCESSFULL' 
 The results obtained indicate that half (5/10) of the first 10 most important attributes also appear in the clusters with a frequency showed in the below bar chart.
