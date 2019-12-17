@@ -34,5 +34,19 @@ Steps in developing the project:
 
 Getting introduced with the dataset. From the analysis, observed the dataset consists of 1661207 rows and 76 attributes. All the features are categorical and the features include general descriptors such as gender, age, educ, marriage status, but also drug flags which indicate what kind of substance was the patient using at the time of entrance in rehabilitation and at the time of discharge. 
 
-<h3>Data Analysis and Exploration</h3>
+<h3>Clustering</h3>
+
+Clustering data using K-Modes clustering for categorical data. Divided in 10 clusters. Missing data extracted and working on pure dataset with 371933 examples (rows). Created dummy variables of all columns before doing the clustering.
+input: dataset
+output: 10 clusters
+
+<h3>Feature selection</h3>
+
+Here a chi-squared test is applied to detect the features with the strongest relation to the target attribute "TREATMENT SUCCESSFULL. 
+In this method the same data used for clustering is fed to the algorthim with the goal to see if the most frequent attributes that appear in the clusters are also the attributes that have the strongest relation with the attribute 'TREATMENT SUCCESSFULL' 
+The results obtained indicate that half (5/10) of the first 10 most important attributes also appear in the clusters with a frequency showed in the below bar chart.
+
+<h4>Permutation Importance</h4>
+
+Applying Permutation Importance on fitted models to determine the most important features in the dataset in relation to the target feature "REASON". 
 
