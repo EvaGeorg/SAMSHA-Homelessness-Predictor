@@ -50,6 +50,9 @@ The results obtained indicate that half (5/10) of the first 10 most important at
 
 <h4>Permutation Importance</h4>
 
-Applying Permutation Importance on fitted models to determine the most important features in the dataset in relation to the target feature "REASON". 
+Applying Permutation Importance on fitted models to determine the most important features in the dataset in relation to the target feature "LIVARAG_D". 
 The permutation feature importance is defined to be the decrease in a model score when a single feature value is randomly shuffled. This procedure breaks the relationship between the feature and the target, thus the drop in the model score is indicative of how much the model depends on the feature.
 
+<h4>Classifier</h4>
+
+This dataset has two important features on which we focused for our classifier. Living arrangement on admission and living arrangements on discharge. What this classifier does is predicts the living arrangements on discharge. The input it takes is several features and if the patient is homeless or not at the time of admission. The output it provides is if the patient will end up homeless or will be able to obtain household at the end of the treatment. This is with the goal to help housing agencies which implement "Housing First Model" to better prioritize patients, so it's determined earlier if a patient needs housing assistance or not.   
